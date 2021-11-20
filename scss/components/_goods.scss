@@ -1,0 +1,14 @@
+.goods {
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+
+     &__text {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 5em;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+}

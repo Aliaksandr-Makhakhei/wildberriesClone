@@ -1,0 +1,82 @@
+.slider {
+  width: 95%;
+  margin: 12em auto 3em auto;
+  height: 37em;
+  position: relative;
+  border-radius: 2em;
+  overflow: hidden;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.25), 10px 0px 10px rgba(0, 0, 0, 0.22);
+}
+
+#btn-prev,
+#btn-next {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 6.5em;
+  opacity: 0.3;
+  background-color: $color_gray;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+#btn-prev:hover,
+#btn-next:hover {
+  background-color: $color_violet;
+  opacity: 0.7;
+}
+
+#btn-next {
+  left: auto;
+  right: 0;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+  animation: slide-appearance;
+  animation-duration: 1s;
+}
+
+.slide > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper__dots span {
+  width: 4em;
+  height: 0.7em;
+  border-radius: 0.5em;
+  background-color: $color_gray;
+  margin-right: 2em;
+  cursor: pointer;
+}
+
+.wrapper__dots {
+  display: flex;
+  justify-content: center;
+}
+
+.dot.active {
+  background-color: $color_orchid;
+}
+
+span:last-child {
+  margin-right: 0;
+}
+
+@keyframes slide-appearance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
