@@ -15,7 +15,7 @@
 ### Preview
 #### Home page
 ![site](https://user-images.githubusercontent.com/52377481/138306344-212e5dd8-d248-4101-877c-471fbfb71a54.PNG)
-#### Быстрый просмотр товара
+#### Quick view of the product
 ![быстрый просмотр](https://user-images.githubusercontent.com/52377481/138306370-8e6704f0-de1f-41ec-9606-21cb2bc57ce0.PNG)
 #### Product search
 ![поиск](https://user-images.githubusercontent.com/52377481/138306385-52d180ab-cd2d-4916-8a62-de2f9422b42a.PNG)
