@@ -8,6 +8,7 @@
 * HTML5
 * SCSS
 * JavaScript
+* MockAPI
 * Parcel
 * Git
 * BEM
